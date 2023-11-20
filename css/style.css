@@ -125,6 +125,25 @@ p{
   margin-top: 35px;
 }
 
+/* CSS de Alquilar */
+.alquilar a{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.alquilar p{
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-top: #b0965a 2px solid;
+  border-bottom: #b0965a 2px solid;
+}
+
+.alquilar p:hover{
+  background-color: #b0965a;
+}
+
 /* FOOTER */
 .footer {
   display: flex;
