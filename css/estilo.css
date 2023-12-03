@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(33, 37, 41);
+}
+
+header nav a .logo {
+  width: 100px;
+  position: relative;
+}
+
+main .video {
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .video video {
+  width: 100%;
+  height: 100%;
+}
+main .imagen-top {
+  max-height: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .imagen-top img {
+  width: 100%;
+  height: 100%;
+}
+main .titulo {
+  color: #b0965a;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+main .parrafo {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+  line-height: 1;
+  text-align: center;
+  justify-content: center;
+  font-size: 17px;
+}
+main .contenedorModelos div .textoModelo .titulo2 {
+  color: #b0965a;
+  align-items: center;
+  margin: 20px;
+}
+main .contenedorModelos div .textoModelo p {
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  padding: 4px;
+}
+main .contenedorModelos div .modeloImg img {
+  width: 350px;
+  height: auto;
+  border: #b0965a 2px solid;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+main .titulo2 {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 20px;
+  border-top: #b0965a 2px solid;
+  border-bottom: #b0965a 2px solid;
+}
+main .seccionAlquilar .alquilar {
+  align-items: center;
+}
+main .seccionAlquilar .alquilar a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+main .seccionAlquilar .alquilar p {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-top: #b0965a 2px solid;
+  border-bottom: #b0965a 2px solid;
+}
+main .seccionAlquilar .alquilar p:hover {
+  background-color: #b0965a;
+}
+main .formulario {
+  width: auto;
+  margin: 10px 50px 10px 50px;
+  padding: 20px;
+  border: #b0965a 2px solid;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+footer .menu {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenedor */
+  align-items: center; /* Centra verticalmente el contenedor */
+  margin: 20px;
+}
+footer .menu div ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .menu div ul li {
+  list-style: none;
+}
+footer .menu div ul li a {
+  padding-top: 15px;
+  position: relative;
+  color: white;
+  margin: 0 15px;
+  text-decoration: none; /*Borro el subrayado */
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+footer .menu div ul li a:hover {
+  color: #b0965a;
+  border-top: #b0965a 1px solid;
+}
+footer .redes {
+  text-align: center;
+}
+footer .redes a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+footer .redes a img {
+  width: 30px;
+}
+footer .texto {
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=estilo.css.map */
