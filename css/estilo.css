@@ -93,7 +93,7 @@ main .seccionAlquilar .alquilar a p {
   border-bottom: #b0965a 2px solid;
 }
 main .seccionAlquilar .alquilar a img:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 main .formulario {
   width: auto;
