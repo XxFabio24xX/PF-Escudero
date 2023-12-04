@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link al CDN de Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Link de AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Link de Animated-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="shortcut icon" href="../multi/icono.png">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Contacto</title>
@@ -43,7 +47,7 @@
         <div class="imagen-top">
             <img src="../multi/top4.jpg" alt="imagen-top">
         </div>
-        <h1 class="titulo">Contacto</h1>
+        <h1 class="titulo animate__animated animate__lightSpeedInLeft">Contacto</h1>
         <br>
         <section class="container-fluid text-center formulario">
             <form>
@@ -72,7 +76,7 @@
               </form>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up">
         <nav class="navbar navbar-expand-md menu">
           <div class="class="collapse navbar-collapse" id="navbarSupportedContent"">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -91,11 +95,16 @@
           <a href="https://www.instagram.com" target="_blank">
             <img src="../multi/instagram.png" alt="Logo de Instagram">
           </a>
+          <a href="https://github.com/XxFabio24xX/PreEntrega3-Escudero" target="_blank" rel="noopener noreferrer">
+            <img src="../multi/github.png" alt="">
+        </a>
         </div>
         <div class="texto">
           <p>2023 - @Todos los derechos reservados.</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   AOS.init(); </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

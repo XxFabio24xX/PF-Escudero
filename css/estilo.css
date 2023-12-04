@@ -1,3 +1,8 @@
+header nav a .logo {
+  width: 100px;
+  position: relative;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,11 +12,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(33, 37, 41);
-}
-
-header nav a .logo {
-  width: 100px;
-  position: relative;
 }
 
 main .video {
@@ -52,17 +52,17 @@ main .parrafo {
   justify-content: center;
   font-size: 17px;
 }
-main .contenedorModelos div .textoModelo .titulo2 {
+main .contenedorModelos .modelo .textoModelo .titulo2 {
   color: #b0965a;
   align-items: center;
   margin: 20px;
 }
-main .contenedorModelos div .textoModelo p {
+main .contenedorModelos .modelo .textoModelo p {
   color: rgb(255, 255, 255);
   line-height: 1;
   padding: 4px;
 }
-main .contenedorModelos div .modeloImg img {
+main .contenedorModelos .modelo .modeloImg img {
   width: 350px;
   height: auto;
   border: #b0965a 2px solid;
@@ -85,15 +85,15 @@ main .seccionAlquilar .alquilar a {
   text-decoration: none;
   list-style: none;
 }
-main .seccionAlquilar .alquilar p {
+main .seccionAlquilar .alquilar a p {
   color: white;
   padding: 5px;
   text-align: center;
   border-top: #b0965a 2px solid;
   border-bottom: #b0965a 2px solid;
 }
-main .seccionAlquilar .alquilar p:hover {
-  background-color: #b0965a;
+main .seccionAlquilar .alquilar a img:hover {
+  transform: scale(1.1);
 }
 main .formulario {
   width: auto;
@@ -148,7 +148,11 @@ footer .redes a {
 footer .redes a img {
   width: 30px;
 }
+footer .redes a img:hover {
+  transform: scale(1.1);
+}
 footer .texto {
+  margin-top: 20px;
   text-align: center;
   color: white;
 }
