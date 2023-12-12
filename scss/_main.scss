@@ -1,3 +1,5 @@
+$dorado: #b0965a;
+
 main{
     .video{
         width: 100%;
@@ -24,7 +26,7 @@ main{
         }
     }
     .titulo{
-        color: #b0965a;
+        color: $dorado;
         text-align: center;
         font-size: 40px;
         margin-top: 20px;
@@ -42,7 +44,7 @@ main{
         .modelo{
             .textoModelo{
                 .titulo2{
-                    color: #b0965a;
+                    color: $dorado;
                     align-items: center;
                     margin: 20px;
                 }
@@ -56,7 +58,7 @@ main{
                 img{
                     width: 350px;
                     height: auto;
-                    border: #b0965a 2px solid;
+                    border: $dorado 2px solid;
                     border-radius: 10px;
                     margin-top: 35px;
                 }
@@ -68,8 +70,8 @@ main{
         text-align: center;
         font-size: 23px;
         margin-top: 20px;
-        border-top: #b0965a 2px solid;
-        border-bottom: #b0965a 2px solid;
+        border-top: $dorado 2px solid;
+        border-bottom: $dorado 2px solid;
     }
     .seccionAlquilar{
         .alquilar{
@@ -82,8 +84,8 @@ main{
                     color: white;
                     padding: 5px;
                     text-align: center;
-                    border-top: #b0965a 2px solid;
-                    border-bottom: #b0965a 2px solid;
+                    border-top: $dorado 2px solid;
+                    border-bottom: $dorado 2px solid;
                 }
                 img{
                     &:hover{
@@ -97,7 +99,7 @@ main{
         width: auto;
         margin: 10px 50px 10px 50px;
         padding: 20px;
-        border: #b0965a 2px solid;
+        border: $dorado 2px solid;
         border-radius: 10px;
     }
 }

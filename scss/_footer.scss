@@ -1,3 +1,5 @@
+$dorado: #b0965a;
+
 footer{
     display: flex;
     margin-top: 5rem;
@@ -25,8 +27,8 @@ footer{
                         letter-spacing: 1px;
                         font-weight: 600;
                         &:hover{
-                            color: #b0965a;
-                            border-top: #b0965a 1px solid;
+                            color: $dorado;
+                            border-top: $dorado 1px solid;
                         }
                     }
                 }
